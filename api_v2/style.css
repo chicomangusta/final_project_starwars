@@ -1,0 +1,86 @@
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: -1.4;
+  font-family: Helvetica, Arial, sans-serif, russo one;
+  background: url(https://res.cloudinary.com/dqiighjqq/image/upload/v1571869432/QzYuoTIwrCmM-VSxS0iOvA5WeDkDqXsKa3e2FfOwmVE_tinkdd.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title {
+  font-size: 100px;
+  font-family: russo one;
+  color: #FFCC00;
+  letter-spacing: 6px;
+  margin-left: 700px;
+  margin-top: -10px;
+}
+
+div.info-people {
+  border: 2px solid #FFCC00;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 500px;
+}
+
+
+div.info-planets {
+  border: 2px solid #FFCC00;
+  margin-left: 510px;
+  margin-top: -355px;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 500px;
+}
+
+
+#name {
+  font-family: russo one;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+#name2 {
+  font-family: russo one;
+  margin-left: 0px;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+p {
+  font-fmaily: russo one;
+  font-size: 25px;
+  color: #FFCC00;
+}
+
+
+#button {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
+
+#planet {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 255px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
