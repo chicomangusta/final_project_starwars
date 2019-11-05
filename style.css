@@ -1,0 +1,175 @@
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: -1.4;
+  font-family: Helvetica, Arial, sans-serif, russo one;
+  background: url(https://res.cloudinary.com/dqiighjqq/image/upload/v1571869432/QzYuoTIwrCmM-VSxS0iOvA5WeDkDqXsKa3e2FfOwmVE_tinkdd.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title {
+  font-size: 200px;
+  font-family: russo one;
+  color: #FFCC00;
+  letter-spacing: 6px;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+
+div.info-people {
+  border: 2px solid #FFCC00;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 300px;
+  width: 400px;
+}
+
+
+div.info-planets {
+  border: 2px solid #FFCC00;
+  margin-left: 460px;
+  margin-top: -353px;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 450px;
+}
+
+
+div.info-films {
+  border: 2px solid #FFCC00;
+  margin-left: 920px;
+  margin-top: -353px;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 450px;
+}
+
+
+div.info-starships {
+  border: 2px solid #FFCC00;
+  margin-left: 1380px;
+  margin-top: -353px;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 450px;
+}
+
+
+#name {
+  font-family: russo one;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+#name2 {
+  font-family: russo one;
+  margin-left: 0px;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+
+#film_title {
+  font-family: russo one;
+  margin-left: 0px;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+
+#name3 {
+  font-family: russo one;
+  margin-left: 0px;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+
+
+p {
+  font-fmaily: russo one;
+  font-size: 25px;
+  color: #FFCC00;
+}
+
+
+#button {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 70px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+  text-align: center;
+}
+
+#button:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+
+#planet {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 170px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
+
+#planet:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+
+
+#films {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 170px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
+
+#films:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+
+
+#starships {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 170px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
+
+#starships:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}

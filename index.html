@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>STAR WARS</title>
+  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id='title'>Star Wars</h1>
+<div id="container">
+  <div class="info-people">
+     <h1 id='name'></h1>
+     <p  id='height'></p>
+     <p  id='mass'></p>
+     <p  id='birth-year'></p>
+     <p  id='gender'></p>
+  </div>
+
+   <div class="info-planets">
+      <h1 id='name2'></h1>
+      <p  id='rotation_period'></p>
+      <p  id='population'></p>
+      <p  id='terrain'></p>
+      <p  id='diameter'></p>
+  </div>
+
+
+  <div class="info-films">
+     <h1 id='film_title'></h1>
+     <p  id='episode_id'></p>
+     <p  id='director'></p>
+     <p  id='release_date'></p>
+  </div>
+
+
+  <div class="info-starships">
+     <h1 id='name3'></h1>
+     <p  id='model'></p>
+     <p  id='manufacturer'></p>
+     <p  id='length'></p>
+     <p  id='hyperdrive_rating'></p>
+  </div>
+</div>
+<style>
+
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: -1.4;
+  font-family: Helvetica, Arial, sans-serif, russo one;
+  background: url(https://res.cloudinary.com/dqiighjqq/image/upload/v1571869432/QzYuoTIwrCmM-VSxS0iOvA5WeDkDqXsKa3e2FfOwmVE_tinkdd.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title {
+  font-size: 200px;
+  font-family: russo one;
+  color: #FFCC00;
+  letter-spacing: 6px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+
+div.info-people {
+  border: 2px solid #FFCC00;
+  /* border-left: -2000px; */
+  /* border-top: -1000px; */
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 400px;
+}
+
+
+div.info-planets {
+  border: 2px solid #FFCC00;
+  margin-left: 460px;
+  margin-top: -353px;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 400px;
+}
+
+
+div.info-films {
+  border: 2px solid #FFCC00;
+  margin-left: 920px;
+  margin-top: -353px;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 400px;
+}
+
+
+div.info-starships {
+  border: 2px solid #FFCC00;
+  margin-left: 1380px;
+  margin-top: -353px;
+  border-radius: 10px;
+  background: rgba(0,0,0, .8);
+  height: 350px;
+  width: 400px;
+}
+
+
+#name {
+  font-family: russo one;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+#name2 {
+  font-family: russo one;
+  margin-left: 0px;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+
+#film_title {
+  font-family: russo one;
+  margin-left: 0px;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+
+#name3 {
+  font-family: russo one;
+  margin-left: 0px;
+  font-size: 35px;
+  color: #FFCC00;
+}
+
+
+
+p {
+  font-fmaily: russo one;
+  font-size: 25px;
+  color: #FFCC00;
+}
+
+
+#button {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+  text-align: center;
+}
+
+#button:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+
+#planet {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 140px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
+
+#planet:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+
+
+#films {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 140px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
+
+#films:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+
+
+#starships {
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 170px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-family: russo one;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+}
+
+#starships:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+</style>
+
+
+  <button type="button" id='button' name='button'>Star Wars People</button>
+
+  <button type="button" id='planet' name='planet'>Star Wars Planets</button>
+
+  <button type="button" id='films' name='films'>Star Wars Films</button>
+
+  <button type="button" id='starships' name='starships'>Star Wars Starships</button>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
